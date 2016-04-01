@@ -1,0 +1,122 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+	display: inline-block;
+	width: 2em;
+	text-shadow: 2px 2px #aaa;
+}
+
+body {
+	font-family: "Yantramanav", sans-serif;
+	font-weight: 300;
+}
+
+.grid {
+	margin: 0px auto 0px auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.right {
+	text-align: right;
+	padding-right: 40px;
+}
+
+.padleft {
+	padding-left: 40px;
+}
+
+.col-12 {
+	width: 100%;
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+}
+
+.col-4 {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 800px) {
+	.col-4 {
+		width: 33.3%;
+	}
+}
+
+h3 {
+	color: #006600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	padding-bottom: 2px;
+	color: #004d00;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+h1 {
+	color: #006600;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+@media screen and (min-width: 800px) {
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+	}
+}
+
+.smallfont {
+	font-size: 75%;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 2em;
+	margin: 1em 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+a:link {
+	color: #006600;
+}
+
+@media screen and (min-width:300px) and (max-width: 650px) {
+	body {
+		font-size: 1.2em;
+	}
+
+	.smallfont {
+		font-size: 125%;
+	}
+}
+
+img {
+	max-width: 100%;
+}
